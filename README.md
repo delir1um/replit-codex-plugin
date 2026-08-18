@@ -13,6 +13,9 @@ https://replit-mcp.com/server/mcp
 
 Complete the Replit OAuth flow when prompted. No credentials or tokens are stored in this repository.
 
+The repository includes both ShipStudio's root `plugin.json` convention and Codex's
+`.codex-plugin/plugin.json` convention.
+
 ## Safety
 
 Review the tools and requested permissions before authorizing access. Start with a read-only verification request before allowing project changes or deployments.
