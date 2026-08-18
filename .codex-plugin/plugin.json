@@ -1,0 +1,24 @@
+{
+  "name": "replit-codex-plugin",
+  "version": "0.1.0",
+  "description": "Connect Codex to Replit through Replit's official MCP server.",
+  "author": {
+    "name": "Cloudfusion"
+  },
+  "interface": {
+    "displayName": "Replit",
+    "shortDescription": "Connect Codex to Replit through MCP.",
+    "longDescription": "Connects Codex to Replit's official MCP server using Replit OAuth.",
+    "developerName": "Cloudfusion",
+    "category": "Developer Tools",
+    "capabilities": ["Interactive", "Write"],
+    "websiteURL": "https://replit.com/",
+    "privacyPolicyURL": "https://replit.com/privacy-policy",
+    "termsOfServiceURL": "https://replit.com/terms-of-service",
+    "defaultPrompt": [
+      "Verify read-only access to my Replit project.",
+      "Inspect my Replit deployment without changing it."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}
